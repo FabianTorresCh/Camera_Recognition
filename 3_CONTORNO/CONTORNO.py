@@ -19,11 +19,6 @@ VarFotoTestOrg_1 = cv2.imread("../0_IMAGENES/FOTO_COLOR_1.jpg")
 VarFotoTestOrg_2 = cv2.imread("../0_IMAGENES/FOTO_COLOR_2.jpg")
 
 
-# ASIGNACION DE FOTOS E IMAGENES ORIGINALES A NUEVAS VARIABLES
-Imagen_Test1_RenderContorno, Imagen_Test2_RenderContorno = VarImageTestOrg_1, VarImageTestOrg_1
-Foto_Test1_RenderContorno, Foto_Test2_RenderContorno, Foto_Test3_RenderContorno, Foto_Test4_RenderContorno, Foto_Test5_RenderContorno, Foto_Test6_RenderContorno = VarFotoTestOrg_2,VarFotoTestOrg_2,VarFotoTestOrg_2,VarFotoTestOrg_2,VarFotoTestOrg_2,VarFotoTestOrg_2
-
-
 # _______________________________________________________________________
 # VISUALIZACION DE IMAGENES ORIGINALES EN VENTANAS DE PYTHON
 cv2.imshow('ViewImage_1', VarImageTestOrg_1)
@@ -146,18 +141,6 @@ cv2.imshow('ViewFoto_1_SIMPLEX', VarFotoTestOrg_1)
 cv2.imshow('ViewFoto_2_NONE', VarFotoTestOrg_2)
 cv2.waitKey(0)
 cv2.destroyAllWindows() # PRIMIENDO CUALQUIER BOTON, ELIMINA LA PRESENTACION DE LAS IMAGENES
-
-
-
-"""
-NOTA
-1. REALIZAR COMMIT
-2. REALIZAR EJERCICIO PARA BORDES DE TIPO NONE
-3. REALIZAR EJERCICIO PARA FOTOGRAFIAS
-
-
-
-"""
 
 
 
