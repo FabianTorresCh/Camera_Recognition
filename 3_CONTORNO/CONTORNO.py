@@ -94,9 +94,9 @@ VarContoursFoto1Test_2_ContourSimplex, VarContoursFoto1Test_2_GerarquiaSimplex =
 VarContoursFoto1Test_3_ContourSimplex, VarContoursFoto1Test_3_GerarquiaSimplex = cv2.findContours(VarUmbralFoto1Test_3_IMG_UMB,cv2.RETR_LIST,cv2.CHAIN_APPROX_SIMPLE)
 
 # CONTORNO DE FOTOGRAFIAS CON CONTORNO MULTIPLE
-VarContoursFoto2Test_1_ContourNone, VarContoursFoto2Test_1_GerarquiaNone = cv2.findContours(VarUmbralFoto2Test_1_IMG_UMB,cv2.RETR_LIST,cv2.CHAIN_APPROX_SIMPLE)
-VarContoursFoto2Test_2_ContourNone, VarContoursFoto2Test_2_GerarquiaNone = cv2.findContours(VarUmbralFoto2Test_2_IMG_UMB,cv2.RETR_LIST,cv2.CHAIN_APPROX_SIMPLE)
-VarContoursFoto2Test_3_ContourNone, VarContoursFoto2Test_3_GerarquiaNone = cv2.findContours(VarUmbralFoto2Test_3_IMG_UMB,cv2.RETR_LIST,cv2.CHAIN_APPROX_SIMPLE)
+VarContoursFoto2Test_1_ContourNone, VarContoursFoto2Test_1_GerarquiaNone = cv2.findContours(VarUmbralFoto2Test_1_IMG_UMB,cv2.RETR_LIST,cv2.CHAIN_APPROX_NONE)
+VarContoursFoto2Test_2_ContourNone, VarContoursFoto2Test_2_GerarquiaNone = cv2.findContours(VarUmbralFoto2Test_2_IMG_UMB,cv2.RETR_LIST,cv2.CHAIN_APPROX_NONE)
+VarContoursFoto2Test_3_ContourNone, VarContoursFoto2Test_3_GerarquiaNone = cv2.findContours(VarUmbralFoto2Test_3_IMG_UMB,cv2.RETR_LIST,cv2.CHAIN_APPROX_NONE)
 
 # AGRUPACION DE RESULTADOS DE CONTORNO IMAGEN
 ImageGruopCountor = [
